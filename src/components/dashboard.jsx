@@ -1,11 +1,15 @@
 import React from "react";
-import { Button } from "@mui/material";
+import { Button ,Box} from "@mui/material";
 import { TicketTable } from "./TicketTable";
 import tickets from '../assets/data/dummy-tickets.json';
-
+import { Breadcrumb } from "./Breadcrumb";
 function DashboardPage() {
   return (
     <div>
+        <div>
+            <Breadcrumb page={'Dashboard'}/>
+        </div>
+        <Box display="flex" justifyContent="center">
     <Button
       variant="contained"
       color="success"
@@ -13,6 +17,7 @@ function DashboardPage() {
     >
       New Ticket
     </Button>
+    </Box>
     <div>
         Total Tickets: 50
     </div>

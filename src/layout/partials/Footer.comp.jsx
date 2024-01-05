@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     
     <div style={textStyle}>
-        &copy; TMS all right reserved - 2024.
+        &copy; TMS all rights reserved - 2024.
     </div>
   )
 }
