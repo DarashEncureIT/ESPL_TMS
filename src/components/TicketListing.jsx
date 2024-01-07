@@ -5,6 +5,7 @@ import { SearchForm } from './search-form/SearchForm';
 import { useState,useEffect } from 'react';
 import { TicketTable } from './TicketTable';
 import tickets from '../assets/data/dummy-tickets.json';
+import { Link } from 'react-router-dom';
 export const TicketListing = () => {
 
     const [str,setStr]=useState('');
@@ -27,7 +28,9 @@ export const TicketListing = () => {
             <Breadcrumb page='Ticket List'/>
         </div>
         <div>
+            <Link to={'/ticketform'}>
         <Button variant="contained">New Ticket</Button>
+        </Link>
         </div>
         <div>
             <SearchForm handleOnchange={handleOnchange} str={str}/>

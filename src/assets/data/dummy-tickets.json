@@ -1,39 +1,63 @@
 [{
+        "id": 0,
         "subject": "ssl issue",
         "status": "Client response pending",
-        "addedAt": "2024-2-1"
+        "addedAt": "2024-2-1",
+        "history": [{
+                "date": "20-10-10",
+                "message": "fdfsfdsf",
+                "messageBy": "Client"
+            },
+            {
+                "date": "20-10-10",
+                "message": "fdfsfdsf",
+                "messageBy": "Operator"
+            },
+            {
+                "date": "20-10-10",
+                "message": "fdfsfdsf",
+                "messageBy": "Client"
+            }
+        ]
     },
     {
+        "id": 1,
         "subject": "Email certificate expired",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
     },
     {
+        "id": 2,
         "subject": "ssl issue",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
     },
     {
+        "id": 3,
         "subject": "ssl issue",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
     },
     {
+        "id": 4,
         "subject": "ssl issue",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
     },
     {
+        "id": 5,
         "subject": "Issue with Email",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
     },
     {
+        "id": 6,
         "subject": "ssl issue",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
     },
     {
+        "id": 7,
         "subject": "ssl issue",
         "status": "Client response pending",
         "addedAt": "2024-2-1"
