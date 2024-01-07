@@ -58,7 +58,7 @@ export const TicketTable = ({tickets}) => {
           tickets.map((row,i) => (
             <StyledTableRow key={i}>
               <StyledTableCell component="th" scope="row">
-                {row.name}
+                {row.subject}
               </StyledTableCell>
               <StyledTableCell align="right">{row.status}</StyledTableCell>
               <StyledTableCell align="right">{row.addedAt}</StyledTableCell>
